@@ -1,0 +1,138 @@
+*{
+  font-family: 'Roboto',  sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/* -- Body -- */
+.body{
+  position: relative;
+}
+
+.side-menu{
+  display: inline-block;
+  padding: 4rem 2rem;
+  background-color: #f0f4f7;
+  height: auto;
+}
+
+.side-menu .header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-menu a img{
+  border-radius: 50%;
+}
+
+.side-menu .search{
+  position: absolute;
+}
+
+.side-menu .search input{
+  background: #fff;
+  border-radius: 25px 25px 25px 25px;
+  outline: none;
+  width: 200px;
+  height: 35px;
+  padding: 1.3rem;
+  position: relative;
+}
+
+.header .search label{
+  background: transparent;
+  position: absolute;
+  right: 7%;
+  top: .8rem;
+}
+
+.side-menu .categories{
+  display: block;
+  margin-top: 1.5rem;
+}
+
+.side-menu .categories .category{
+  margin: .7rem 0;
+  padding: 1.3rem;
+}
+
+.side-menu .categories .category .fa-solid{
+   color: #f65d7a;
+   font-size: 2rem;
+}
+
+.side-menu .categories .category span a{
+  color: #000;
+  margin-left: 1.3rem;
+  font-weight: 400;
+}
+
+.side-menu .folders{
+  display: block;
+}
+
+.side-menu .head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 1.5rem 0;
+}
+
+.side-menu .head .fa-solid{
+  color: #f65d7a;
+  font-size: 2rem;
+}
+
+.side-menu .folders .folder .fa-solid{
+  color: #f65d7a;
+  font-size: 2rem;
+}
+
+.side-menu .folders .folder{
+  margin: .7rem 0;
+  padding: 1.3rem;
+}
+
+.side-menu .folders .folder a{
+  font-weight: 400;
+  color: #000;
+  margin-left: 2rem;
+}
+
+.side-menu .footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.side-menu .footer div{
+  margin-top: 43rem;
+  text-align: center;
+}
+
+.side-menu .footer div span{
+  margin: 0 1.3rem;
+  color: #f65d7a;
+}
+
+.side-menu .footer div span, p{
+  font-size: 2rem;
+}
+
+/* -- main -- */
+.main{
+  width: 65%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+
+
