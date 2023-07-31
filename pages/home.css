@@ -125,7 +125,7 @@
   font-size: 2rem;
 }
 
-/* -- main -- *//*
+/* -- main -- */
 .main{
   width: 65%;
   position: absolute;
@@ -170,7 +170,7 @@
   align-items: center;
   justify-content: space-between;
 }
-
+/*
 .main .header .show div{
   display: flex;
   align-items: center;
