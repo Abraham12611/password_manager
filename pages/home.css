@@ -125,13 +125,95 @@
   font-size: 2rem;
 }
 
-/* -- main -- */
+/* -- main -- *//*
 .main{
   width: 65%;
   position: absolute;
   right: 0;
   top: 0;
+  padding: 1.2rem;
+  background: #f1ebf2;
 }
+
+.main .header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .header .add-box div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: .5rem;
+  background-color: #ef4d6b;
+  padding: .7rem 1.5rem;
+}
+
+.main .header .add-box div p{
+  margin: 0 .4rem;
+  font-size: 1rem;
+}
+
+.main .header .folder{
+  background-color: #ef4d6b;
+  border-radius: .5rem;
+  padding: .7rem 1.5rem;
+}
+
+.main .header .folder i{
+  font-size: 1.2rem;
+}
+
+.main .header .show{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .header .show div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: .5rem;
+  background: #ef4d6b;
+  padding: .5rem 1rem;
+  margin-left: .5rem;
+}
+
+.main .header .show div p{
+  font-weight: 400;
+}
+
+.main .header .show p{
+  font-weight: bold;
+}
+
+/* -- Box Section -- */
+
+.main .box-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .box-container .box{
+  background: #fff;
+  border-radius: .7rem;
+  padding: .8rem;
+  width: 45%;
+}
+
+.main .box-container .box .head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .box-container .box .head .identifier p{
+  font-size: .5rem;
+}
+
 
 
 
