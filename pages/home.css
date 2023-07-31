@@ -170,7 +170,7 @@
   align-items: center;
   justify-content: space-between;
 }
-/*
+
 .main .header .show div{
   display: flex;
   align-items: center;
@@ -189,7 +189,7 @@
   font-weight: bold;
 }
 
-/* -- Box Section -- */
+/* -- Box Section -- *//*
 
 .main .box-container{
   display: flex;
